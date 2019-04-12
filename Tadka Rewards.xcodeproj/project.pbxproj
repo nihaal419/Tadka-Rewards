@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0669E3932256D355005C4A65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0669E3922256D355005C4A65 /* GoogleService-Info.plist */; };
+		0669E3952256DDC6005C4A65 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3942256DDC6005C4A65 /* MainTabBarController.swift */; };
+		0669E3972256DEAA005C4A65 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3962256DEAA005C4A65 /* MenuController.swift */; };
+		0669E3992256DEB9005C4A65 /* RewardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3982256DEB9005C4A65 /* RewardsController.swift */; };
+		0669E39B2256DEC4005C4A65 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E39A2256DEC4005C4A65 /* ProfileController.swift */; };
+		0669E39D2256E3B5005C4A65 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E39C2256E3B5005C4A65 /* Service.swift */; };
 		06EBE7DB2256D28700756320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBE7DA2256D28700756320 /* AppDelegate.swift */; };
 		06EBE7DD2256D28700756320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBE7DC2256D28700756320 /* ViewController.swift */; };
-		06EBE7E02256D28700756320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EBE7DE2256D28700756320 /* Main.storyboard */; };
 		06EBE7E22256D28900756320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EBE7E12256D28900756320 /* Assets.xcassets */; };
 		06EBE7E52256D28900756320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EBE7E32256D28900756320 /* LaunchScreen.storyboard */; };
+		3942AC2F1F3ACBB099091B5D /* Pods_Tadka_Rewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DEFBE9D451066BFED8A1BA /* Pods_Tadka_Rewards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0669E3922256D355005C4A65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0669E3942256DDC6005C4A65 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0669E3962256DEAA005C4A65 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		0669E3982256DEB9005C4A65 /* RewardsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsController.swift; sourceTree = "<group>"; };
+		0669E39A2256DEC4005C4A65 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0669E39C2256E3B5005C4A65 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		06EBE7D72256D28700756320 /* Tadka Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tadka Rewards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EBE7DA2256D28700756320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06EBE7DC2256D28700756320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06EBE7DF2256D28700756320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06EBE7E12256D28900756320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06EBE7E42256D28900756320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06EBE7E62256D28900756320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1471A37C0E8A63A371990A41 /* Pods-Tadka Rewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadka Rewards.debug.xcconfig"; path = "Target Support Files/Pods-Tadka Rewards/Pods-Tadka Rewards.debug.xcconfig"; sourceTree = "<group>"; };
+		4E5FDE0163E053BD0DAD1AA2 /* Pods-Tadka Rewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tadka Rewards.release.xcconfig"; path = "Target Support Files/Pods-Tadka Rewards/Pods-Tadka Rewards.release.xcconfig"; sourceTree = "<group>"; };
+		F9DEFBE9D451066BFED8A1BA /* Pods_Tadka_Rewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tadka_Rewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3942AC2F1F3ACBB099091B5D /* Pods_Tadka_Rewards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				06EBE7D92256D28700756320 /* Tadka Rewards */,
 				06EBE7D82256D28700756320 /* Products */,
+				303234F4851825C24258A142 /* Pods */,
+				84995E6CCE10430B15A3A809 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +73,34 @@
 			children = (
 				06EBE7DA2256D28700756320 /* AppDelegate.swift */,
 				06EBE7DC2256D28700756320 /* ViewController.swift */,
-				06EBE7DE2256D28700756320 /* Main.storyboard */,
 				06EBE7E12256D28900756320 /* Assets.xcassets */,
 				06EBE7E32256D28900756320 /* LaunchScreen.storyboard */,
 				06EBE7E62256D28900756320 /* Info.plist */,
+				0669E3922256D355005C4A65 /* GoogleService-Info.plist */,
+				0669E3942256DDC6005C4A65 /* MainTabBarController.swift */,
+				0669E3962256DEAA005C4A65 /* MenuController.swift */,
+				0669E3982256DEB9005C4A65 /* RewardsController.swift */,
+				0669E39A2256DEC4005C4A65 /* ProfileController.swift */,
+				0669E39C2256E3B5005C4A65 /* Service.swift */,
 			);
 			path = "Tadka Rewards";
+			sourceTree = "<group>";
+		};
+		303234F4851825C24258A142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1471A37C0E8A63A371990A41 /* Pods-Tadka Rewards.debug.xcconfig */,
+				4E5FDE0163E053BD0DAD1AA2 /* Pods-Tadka Rewards.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84995E6CCE10430B15A3A809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9DEFBE9D451066BFED8A1BA /* Pods_Tadka_Rewards.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06EBE7E92256D28900756320 /* Build configuration list for PBXNativeTarget "Tadka Rewards" */;
 			buildPhases = (
+				238E085F52C53922AC5C7F21 /* [CP] Check Pods Manifest.lock */,
 				06EBE7D32256D28700756320 /* Sources */,
 				06EBE7D42256D28700756320 /* Frameworks */,
 				06EBE7D52256D28700756320 /* Resources */,
+				89AD8FFB2537EBD32237DCC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +164,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				06EBE7E52256D28900756320 /* LaunchScreen.storyboard in Resources */,
+				0669E3932256D355005C4A65 /* GoogleService-Info.plist in Resources */,
 				06EBE7E22256D28900756320 /* Assets.xcassets in Resources */,
-				06EBE7E02256D28700756320 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		238E085F52C53922AC5C7F21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tadka Rewards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89AD8FFB2537EBD32237DCC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tadka Rewards/Pods-Tadka Rewards-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tadka Rewards/Pods-Tadka Rewards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06EBE7D32256D28700756320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0669E3972256DEAA005C4A65 /* MenuController.swift in Sources */,
+				0669E39D2256E3B5005C4A65 /* Service.swift in Sources */,
+				0669E3992256DEB9005C4A65 /* RewardsController.swift in Sources */,
 				06EBE7DD2256D28700756320 /* ViewController.swift in Sources */,
 				06EBE7DB2256D28700756320 /* AppDelegate.swift in Sources */,
+				0669E3952256DDC6005C4A65 /* MainTabBarController.swift in Sources */,
+				0669E39B2256DEC4005C4A65 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		06EBE7DE2256D28700756320 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06EBE7DF2256D28700756320 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		06EBE7E32256D28900756320 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +377,13 @@
 		};
 		06EBE7EA2256D28900756320 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1471A37C0E8A63A371990A41 /* Pods-Tadka Rewards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4R5A7ZS4F9;
 				INFOPLIST_FILE = "Tadka Rewards/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +397,13 @@
 		};
 		06EBE7EB2256D28900756320 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5FDE0163E053BD0DAD1AA2 /* Pods-Tadka Rewards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4R5A7ZS4F9;
 				INFOPLIST_FILE = "Tadka Rewards/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
