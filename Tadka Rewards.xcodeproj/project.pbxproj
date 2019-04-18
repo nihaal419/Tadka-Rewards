@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06522B4D2268FFA0004B57A9 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06522B4C2268FFA0004B57A9 /* WelcomeController.swift */; };
 		0669E3932256D355005C4A65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0669E3922256D355005C4A65 /* GoogleService-Info.plist */; };
 		0669E3952256DDC6005C4A65 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3942256DDC6005C4A65 /* MainTabBarController.swift */; };
 		0669E3972256DEAA005C4A65 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3962256DEAA005C4A65 /* MenuController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06522B4C2268FFA0004B57A9 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		0669E3922256D355005C4A65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0669E3942256DDC6005C4A65 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		0669E3962256DEAA005C4A65 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				06EBE7E62256D28900756320 /* Info.plist */,
 				0669E3922256D355005C4A65 /* GoogleService-Info.plist */,
 				0669E3942256DDC6005C4A65 /* MainTabBarController.swift */,
+				06522B4C2268FFA0004B57A9 /* WelcomeController.swift */,
 				0669E3962256DEAA005C4A65 /* MenuController.swift */,
 				0669E3982256DEB9005C4A65 /* RewardsController.swift */,
 				0669E39A2256DEC4005C4A65 /* ProfileController.swift */,
@@ -237,6 +240,7 @@
 			files = (
 				0669E3972256DEAA005C4A65 /* MenuController.swift in Sources */,
 				0669E39D2256E3B5005C4A65 /* Service.swift in Sources */,
+				06522B4D2268FFA0004B57A9 /* WelcomeController.swift in Sources */,
 				0669E3992256DEB9005C4A65 /* RewardsController.swift in Sources */,
 				06EBE7DD2256D28700756320 /* ViewController.swift in Sources */,
 				06EBE7DB2256D28700756320 /* AppDelegate.swift in Sources */,

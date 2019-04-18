@@ -7,12 +7,26 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //checkLoggedInUserStatus()
+        
         setupViewControllers()
+    }
+    
+    fileprivate func checkLoggedInUserStatus() {
+        if Auth.auth().currentUser == nil {
+            DispatchQueue.main.async {
+                let welcomeController = WelcomeController()
+                let welcomeNavigationController = UINavigationController(rootViewController: welcomeController)
+                self.present(welcomeNavigationController, animated: false, completion: nil)
+                return
+            }
+        }
     }
     
     fileprivate func setupViewControllers() {
@@ -21,7 +35,7 @@ class MainTabBarController: UITabBarController {
         
         let menuController = MenuController()
         let menuNavigationController = UINavigationController(rootViewController: menuController)
-        menuNavigationController.setNavigationBarHidden(true, animated: false)
+        //menuNavigationController.setNavigationBarHidden(true, animated: false)
         menuNavigationController.tabBarItem.image = #imageLiteral(resourceName: "menu").withRenderingMode(.alwaysTemplate)
         menuNavigationController.tabBarItem.selectedImage = #imageLiteral(resourceName: "menu").withRenderingMode(.alwaysTemplate)
         menuNavigationController.tabBarItem.title = "Menu"
