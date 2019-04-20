@@ -11,7 +11,7 @@ import FirebaseAuth
 
 class ProfileController: ViewController {
     
-    lazy var signInAnonymouslyButton: UIButton = {
+    lazy var signOutButton: UIButton = {
         var button = UIButton(type: .system)
         button.setTitle("Log Out", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: Service.buttonTitleFontSize)
@@ -44,8 +44,8 @@ class ProfileController: ViewController {
         
         view.backgroundColor = Service.backgroundColor
         
-        view.addSubview(signInAnonymouslyButton)
+        view.addSubview(signOutButton)
         
-        signInAnonymouslyButton.anchor(nil, left: view.safeAreaLayoutGuide.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, topConstant: 0, leftConstant: 16, bottomConstant: 30, rightConstant: 16, widthConstant: 0, heightConstant: 50)
+        signOutButton.anchor(nil, left: view.safeAreaLayoutGuide.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, topConstant: 0, leftConstant: 16, bottomConstant: 30, rightConstant: 16, widthConstant: 0, heightConstant: 50)
     }
 }

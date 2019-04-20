@@ -16,6 +16,7 @@ class MainTabBarController: UITabBarController {
         //checkLoggedInUserStatus()
         
         setupViewControllers()
+        self.selectedIndex = 1
     }
     
     fileprivate func checkLoggedInUserStatus() {
@@ -42,6 +43,7 @@ class MainTabBarController: UITabBarController {
         
         let rewardsController = RewardsController()
         let rewardsNavigationController = UINavigationController(rootViewController: rewardsController)
+        rewardsNavigationController.setNavigationBarHidden(true, animated: false)
         rewardsNavigationController.tabBarItem.image = #imageLiteral(resourceName: "rewards").withRenderingMode(.alwaysTemplate)
         rewardsNavigationController.tabBarItem.selectedImage = #imageLiteral(resourceName: "rewards").withRenderingMode(.alwaysTemplate)
         rewardsNavigationController.tabBarItem.title = "Rewards"

@@ -14,11 +14,27 @@ class RewardsController: ViewController {
     var progress: KDCircularProgress!
     var currentPoints: Int = 0
     
+    lazy var welcomeLabel: UILabel = {
+        let viewCenter = self.view.center
+        var label = UILabel()
+        //label.center = CGPoint(x: viewCenter.x, y: viewCenter.y-100)
+        label.textAlignment = .center
+        label.adjustsFontSizeToFitWidth = true
+        label.font = UIFont(name: "Matilda-Regular", size: 25)
+        label.text = "Welcome, " //+ fullname
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = Service.backgroundColor
         
+        view.addSubview(welcomeLabel)
+        
+        welcomeLabel.anchor(view.safeAreaLayoutGuide.topAnchor, left: view.safeAreaLayoutGuide.leftAnchor, bottom: nil, right: view.safeAreaLayoutGuide.rightAnchor, topConstant: 25, leftConstant: 16, bottomConstant: 0, rightConstant: 16, widthConstant: 0, heightConstant: 50)
+        
+        //setupView()
         setupProgressView()
     }
     

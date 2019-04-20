@@ -14,6 +14,7 @@
 		0669E3992256DEB9005C4A65 /* RewardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3982256DEB9005C4A65 /* RewardsController.swift */; };
 		0669E39B2256DEC4005C4A65 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E39A2256DEC4005C4A65 /* ProfileController.swift */; };
 		0669E39D2256E3B5005C4A65 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E39C2256E3B5005C4A65 /* Service.swift */; };
+		066A3D93226AB69A00D8FD79 /* Matilda.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 066A3D92226AB69A00D8FD79 /* Matilda.ttf */; };
 		06EBE7DB2256D28700756320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBE7DA2256D28700756320 /* AppDelegate.swift */; };
 		06EBE7DD2256D28700756320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EBE7DC2256D28700756320 /* ViewController.swift */; };
 		06EBE7E22256D28900756320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EBE7E12256D28900756320 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		0669E3982256DEB9005C4A65 /* RewardsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsController.swift; sourceTree = "<group>"; };
 		0669E39A2256DEC4005C4A65 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		0669E39C2256E3B5005C4A65 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		066A3D92226AB69A00D8FD79 /* Matilda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Matilda.ttf; sourceTree = "<group>"; };
 		06EBE7D72256D28700756320 /* Tadka Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tadka Rewards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EBE7DA2256D28700756320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06EBE7DC2256D28700756320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		06EBE7D92256D28700756320 /* Tadka Rewards */ = {
 			isa = PBXGroup;
 			children = (
+				066A3D92226AB69A00D8FD79 /* Matilda.ttf */,
 				06EBE7DA2256D28700756320 /* AppDelegate.swift */,
 				06EBE7DC2256D28700756320 /* ViewController.swift */,
 				06EBE7E12256D28900756320 /* Assets.xcassets */,
@@ -169,6 +172,7 @@
 				06EBE7E52256D28900756320 /* LaunchScreen.storyboard in Resources */,
 				0669E3932256D355005C4A65 /* GoogleService-Info.plist in Resources */,
 				06EBE7E22256D28900756320 /* Assets.xcassets in Resources */,
+				066A3D93226AB69A00D8FD79 /* Matilda.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
