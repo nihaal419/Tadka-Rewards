@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0628DED2226E74640094FCCC /* EarnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0628DED1226E74640094FCCC /* EarnController.swift */; };
+		0628DED4226E74750094FCCC /* RedeemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0628DED3226E74750094FCCC /* RedeemController.swift */; };
 		06522B4D2268FFA0004B57A9 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06522B4C2268FFA0004B57A9 /* WelcomeController.swift */; };
 		0669E3932256D355005C4A65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0669E3922256D355005C4A65 /* GoogleService-Info.plist */; };
 		0669E3952256DDC6005C4A65 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669E3942256DDC6005C4A65 /* MainTabBarController.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0628DED1226E74640094FCCC /* EarnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnController.swift; sourceTree = "<group>"; };
+		0628DED3226E74750094FCCC /* RedeemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemController.swift; sourceTree = "<group>"; };
 		06522B4C2268FFA0004B57A9 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		0669E3922256D355005C4A65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0669E3942256DDC6005C4A65 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				06522B4C2268FFA0004B57A9 /* WelcomeController.swift */,
 				0669E3962256DEAA005C4A65 /* MenuController.swift */,
 				0669E3982256DEB9005C4A65 /* RewardsController.swift */,
+				0628DED1226E74640094FCCC /* EarnController.swift */,
+				0628DED3226E74750094FCCC /* RedeemController.swift */,
 				0669E39A2256DEC4005C4A65 /* ProfileController.swift */,
 				0669E39C2256E3B5005C4A65 /* Service.swift */,
 			);
@@ -243,11 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0669E3972256DEAA005C4A65 /* MenuController.swift in Sources */,
+				0628DED2226E74640094FCCC /* EarnController.swift in Sources */,
 				0669E39D2256E3B5005C4A65 /* Service.swift in Sources */,
 				06522B4D2268FFA0004B57A9 /* WelcomeController.swift in Sources */,
 				0669E3992256DEB9005C4A65 /* RewardsController.swift in Sources */,
 				06EBE7DD2256D28700756320 /* ViewController.swift in Sources */,
 				06EBE7DB2256D28700756320 /* AppDelegate.swift in Sources */,
+				0628DED4226E74750094FCCC /* RedeemController.swift in Sources */,
 				0669E3952256DDC6005C4A65 /* MainTabBarController.swift in Sources */,
 				0669E39B2256DEC4005C4A65 /* ProfileController.swift in Sources */,
 			);
