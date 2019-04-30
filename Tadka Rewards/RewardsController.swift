@@ -35,7 +35,7 @@ class RewardsController: ViewController {
     }()
     
     lazy var earnButton: UIButton = {
-        var earnButton = UIButton()
+        var earnButton = UIButton(type: .system)
         earnButton.setTitle("Earn", for: .normal)
         earnButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: Service.buttonTitleFontSize)
         earnButton.setTitleColor(Service.buttonTitleColor, for: .normal)
@@ -56,7 +56,7 @@ class RewardsController: ViewController {
     }
     
     lazy var redeemButton: UIButton = {
-        var redeemButton = UIButton()
+        var redeemButton = UIButton(type: .system)
         redeemButton.setTitle("Redeem", for: .normal)
         redeemButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: Service.buttonTitleFontSize)
         redeemButton.setTitleColor(Service.buttonTitleColor, for: .normal)
