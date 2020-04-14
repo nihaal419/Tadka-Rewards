@@ -19,8 +19,10 @@ class Service {
     
     static let buttonTitleFontSize: CGFloat = 16
     static let buttonTitleColor = UIColor.white
-    static let buttonBackgroundColorLogOut = UIColor(r: 54, g: 54, b: 54)
     static let buttonCornerRadius: CGFloat = 7
+    static let buttonBackgroundColorSignInAnonymously = UIColor(r: 54, g: 54, b: 54)
+    static let buttonBackgroundColorLoginWithFacebook = UIColor(r: 88, g: 86, b: 214)
+    static let buttonBackgroundColorLogOut = UIColor(r: 54, g: 54, b: 54)
     
     static func showAlert(on: UIViewController, style: UIAlertController.Style, title: String?, message: String?, actions: [UIAlertAction] = [UIAlertAction(title: "Ok", style: .default, handler: nil)], completion: (() -> Void)? = nil) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: style)

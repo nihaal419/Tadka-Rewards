@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import LBTAComponents
+import FirebaseAuth
+import JGProgressHUD
+import FirebaseStorage
+import FirebaseDatabase
 
 class WelcomeController: UIViewController {
     override func viewDidLoad() {
+        super.viewDidLoad()
+        
         view.backgroundColor = .red
     }
 }
